@@ -1,0 +1,20 @@
+﻿<Window x:Class="Topics_Consumer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Topics_Consumer"
+        mc:Ignorable="d"
+        Title="CONSUMER - Topics" Height="450" Width="500"
+        Closing="Window_Closing">
+    <Grid>
+        <Button x:Name="btnStartReceiving" Content="Start Receiving Message" HorizontalAlignment="Left" Margin="33,28,0,0" VerticalAlignment="Top" Click="btnStartReceiving_Click"/>
+        <TextBox x:Name="txtLog" HorizontalAlignment="Center" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Visible" VerticalAlignment="Top" Width="450" Height="243" Margin="0,167,0,0"/>
+        <TextBox x:Name="txtTempQueue" HorizontalAlignment="Left" Margin="33,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="442" IsEnabled="False"/>
+        <Label Content="topic: [speed].[colours].[species]" HorizontalAlignment="Center" Margin="0,76,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cmbSpeed" HorizontalAlignment="Left" Margin="25,117,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="cmbColours" HorizontalAlignment="Left" Margin="161,117,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="cmbSpecies" HorizontalAlignment="Left" Margin="303,117,0,0" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

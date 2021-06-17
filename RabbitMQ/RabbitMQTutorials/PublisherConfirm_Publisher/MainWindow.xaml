@@ -1,0 +1,25 @@
+﻿<Window x:Class="PublisherConfirm_Publisher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PublisherConfirm_Publisher"
+        mc:Ignorable="d"
+        Title="PUBLISHER Client - PublisherConfirm" Height="450" Width="500">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBox Grid.Row="0" x:Name="txtMessage" HorizontalAlignment="Left" Margin="22,28,0,0" Text="Hello World" TextWrapping="Wrap" VerticalAlignment="Top" Width="301" IsEnabled="False"/>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Button  x:Name="btnSendIndividually" Content="Send Individually Message" HorizontalAlignment="Left" Margin="5" VerticalAlignment="Top" Click="btnSendIndividually_Click"/>
+            <Button  x:Name="btnSendInBatch" Content="Send InBatch Message" HorizontalAlignment="Left" Margin="5" VerticalAlignment="Top" Click="btnSendInBatch_Click"/>
+            <Button  x:Name="btnSendAsynchronously" Content="Send Asynchronously Message" HorizontalAlignment="Left" Margin="5" VerticalAlignment="Top" Click="btnSendAsynchronously_Click"/>
+        </StackPanel>
+
+        <TextBox Grid.Row="2" x:Name="txtLog" VerticalAlignment="Center" HorizontalAlignment="Center"  TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Visible" Width="450" Height="250"/>
+
+    </Grid>
+</Window>

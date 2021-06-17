@@ -1,0 +1,60 @@
+﻿i tutorial sono presi da
+https://www.rabbitmq.com/getstarted.html
+
+1)Simple_HelloWorld: La cosa più semplice che fa qualcosa (https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
+In questa parte del tutorial scriveremo due programmi in C#; 
+un produttore che invia un singolo messaggio e un consumatore che riceve messaggi e li stampa. 
+Trascureremo alcuni dettagli nell'API client .NET, concentrandoci su questa cosa molto semplice solo per iniziare. È un "Ciao mondo" di messaggi.
+Nel diagramma sottostante, "P" è il nostro produttore e "C" è il nostro consumatore. 
+La casella al centro è una coda, un buffer di messaggi che RabbitMQ conserva per conto del consumatore.
+
+
+2) WorkQueues: Distribuzione dei compiti tra i lavoratori (il modello dei consumatori concorrenti ) (https://www.rabbitmq.com/tutorials/tutorial-two-dotnet.html)
+Nel primo tutorial abbiamo scritto programmi per inviare e ricevere messaggi da una coda denominata. 
+In questo creeremo una coda di lavoro che verrà utilizzata per distribuire attività che richiedono tempo tra più lavoratori.
+L'idea principale alla base di Work Queues (alias: Task Queues ) è evitare di eseguire immediatamente un'attività 
+ad alta intensità di risorse e di dover attendere il completamento.
+Spedizione round-robin
+Uno dei vantaggi dell'utilizzo di una coda attività è la capacità di parallelizzare facilmente il lavoro.
+Se stiamo accumulando un arretrato di lavoro, possiamo semplicemente aggiungere più lavoratori e in questo modo scalare facilmente.
+
+3) PublishSubscriber: Invio di messaggi a più consumatori contemporaneamente (il modello publish/subscribe) (https://www.rabbitmq.com/tutorials/tutorial-three-dotnet.html)
+Nel tutorial precedente abbiamo creato una coda di lavoro. Il presupposto alla base di una coda di lavoro è che ogni 
+attività venga consegnata esattamente a un lavoratore. 
+In questa parte faremo qualcosa di completamente diverso: consegneremo un messaggio a più consumatori. 
+Questo modello è noto come "pubblica/sottoscrivi".
+In sostanza, i messaggi di registro pubblicati verranno trasmessi a tutti i ricevitori.
+
+4) Routing : Ricezione selettiva dei messaggi (instradamento) (https://www.rabbitmq.com/tutorials/tutorial-four-dotnet.html)
+Nel tutorial precedente abbiamo creato un semplice sistema di registrazione. Siamo stati in grado di trasmettere messaggi di registro a molti ricevitori.
+In questo tutorial aggiungeremo una funzionalità: renderemo possibile l'iscrizione solo a un sottoinsieme dei messaggi. 
+Il nostro sistema di registrazione del tutorial precedente trasmette tutti i messaggi a tutti i consumatori. Vogliamo estenderlo per consentire 
+il filtraggio dei messaggi in base alla loro gravità. 
+Stavamo usando uno scambio fanout , che non ci dà molta flessibilità: è solo in grado di trasmettere in modo insensato.
+Useremo invece uno scambio diretto . L'algoritmo di instradamento alla base di uno scambio diretto è semplice: 
+un messaggio va alle code la cui chiave di associazione corrisponde esattamente alla chiave di instradamento del messaggio.
+
+5) Topics: Ricezione di messaggi in base a uno schema (argomenti) (https://www.rabbitmq.com/tutorials/tutorial-five-dotnet.html)
+Nel tutorial precedente abbiamo migliorato il nostro sistema di registrazione. Invece di utilizzare uno scambio fanout capace 
+solo di trasmissioni fittizie, ne abbiamo usato uno diretto e abbiamo ottenuto la possibilità di ricevere selettivamente i log.
+Sebbene l'utilizzo dello scambio diretto abbia migliorato il nostro sistema, presenta ancora dei limiti: non può eseguire il routing 
+in base a criteri multipli.
+Nel nostro sistema di registrazione potremmo voler sottoscrivere non solo i registri in base alla gravità, 
+ma anche in base alla fonte che ha emesso il registro. 
+I messaggi inviati a un topic exchange non possono avere una routing_key arbitraria - deve essere un elenco di parole, delimitato da punti.
+
+6) RPC: Esempio di modello di richiesta/risposta (https://www.rabbitmq.com/tutorials/tutorial-six-dotnet.html)
+Nel secondo tutorial abbiamo appreso come utilizzare le code di lavoro per distribuire attività che richiedono tempo tra più lavoratori.
+Ma cosa succede se abbiamo bisogno di eseguire una funzione su un computer remoto e attendere il risultato? 
+Beh, questa è un'altra storia. Questo modello è comunemente noto come Remote Procedure Call o RPC .
+In questo tutorial useremo RabbitMQ per costruire un sistema RPC: un client e un server RPC scalabile. 
+Poiché non abbiamo attività dispendiose in termini di tempo che valga la pena distribuire, creeremo un servizio RPC fittizio 
+che restituisce i numeri di Fibonacci.
+
+7) PublisherConfirm: La pubblicazione affidabile con l'editore conferma (https://www.rabbitmq.com/tutorials/tutorial-seven-dotnet.html)
+L'editore conferma che sono un'estensione RabbitMQ per implementare una pubblicazione affidabile. Quando le conferme dell'editore 
+sono abilitate su un canale, i messaggi pubblicati dal client vengono confermati in modo asincrono dal broker, il che significa 
+che sono stati gestiti dal lato server.
+In questo tutorial utilizzeremo le conferme dell'editore per assicurarci che i messaggi pubblicati abbiano raggiunto il broker in sicurezza. 
+Tratteremo diverse strategie per utilizzare le conferme degli editori e spiegheremo i loro pro e contro.
+Le conferme dell'editore sono un'estensione RabbitMQ al protocollo AMQP 0.9.1, quindi non sono abilitate per impostazione predefinita. 

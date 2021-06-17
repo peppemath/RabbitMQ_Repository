@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PublisherConfirm_Publisher\PublisherConfirm_Publisher.csproj" />
+    <ProjectReference Include="..\PublishSubscriber_Consumer\PublishSubscriber_Consumer.csproj" />
+    <ProjectReference Include="..\PublishSubscriber_Publisher\PublishSubscriber_Publisher.csproj" />
+    <ProjectReference Include="..\Routing_Consumer\Routing_Consumer.csproj" />
+    <ProjectReference Include="..\Routing_Publisher\Routing_Publisher.csproj" />
+    <ProjectReference Include="..\RPC_Consumer\RPC_Consumer.csproj" />
+    <ProjectReference Include="..\RPC_Publisher\RPC_Publisher.csproj" />
+    <ProjectReference Include="..\Simple_HelloWorld_Consumer\Simple_HelloWorld_Consumer.csproj" />
+    <ProjectReference Include="..\Simple_HelloWorld_Publisher\Simple_HelloWorld_Publisher.csproj" />
+    <ProjectReference Include="..\Topics_Consumer\Topics_Consumer.csproj" />
+    <ProjectReference Include="..\Topics_Publisher\Topics_Publisher.csproj" />
+    <ProjectReference Include="..\WorkQueues_Consumer\WorkQueues_Consumer.csproj" />
+    <ProjectReference Include="..\WorkQueues_Publisher\WorkQueues_Publisher.csproj" />
+  </ItemGroup>
+
+</Project>

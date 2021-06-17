@@ -1,0 +1,12 @@
+C:\Workspace_progetti\RABBIT-mq\RabbitMQTutorials\Common\bin\Debug\net5.0\Common.deps.json
+C:\Workspace_progetti\RABBIT-mq\RabbitMQTutorials\Common\bin\Debug\net5.0\Common.dll
+C:\Workspace_progetti\RABBIT-mq\RabbitMQTutorials\Common\bin\Debug\net5.0\ref\Common.dll
+C:\Workspace_progetti\RABBIT-mq\RabbitMQTutorials\Common\bin\Debug\net5.0\Common.pdb
+C:\Workspace_progetti\RABBIT-mq\RabbitMQTutorials\Common\obj\Debug\net5.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace_progetti\RABBIT-mq\RabbitMQTutorials\Common\obj\Debug\net5.0\Common.AssemblyInfoInputs.cache
+C:\Workspace_progetti\RABBIT-mq\RabbitMQTutorials\Common\obj\Debug\net5.0\Common.AssemblyInfo.cs
+C:\Workspace_progetti\RABBIT-mq\RabbitMQTutorials\Common\obj\Debug\net5.0\Common.csproj.CoreCompileInputs.cache
+C:\Workspace_progetti\RABBIT-mq\RabbitMQTutorials\Common\obj\Debug\net5.0\Common.dll
+C:\Workspace_progetti\RABBIT-mq\RabbitMQTutorials\Common\obj\Debug\net5.0\ref\Common.dll
+C:\Workspace_progetti\RABBIT-mq\RabbitMQTutorials\Common\obj\Debug\net5.0\Common.pdb
+C:\Workspace_progetti\RABBIT-mq\RabbitMQTutorials\Common\obj\Debug\net5.0\Common.csprojAssemblyReference.cache

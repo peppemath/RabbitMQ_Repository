@@ -1,0 +1,1099 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\RabbitMQTutorials\\RabbitMQTutorials.csproj": {}
+  },
+  "projects": {
+    "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Common\\Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Common\\Common.csproj",
+        "projectName": "Common",
+        "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\gforese\\.nuget\\packages\\",
+        "outputPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gforese\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\DitechNugetPackages_LOCAL": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\PublisherConfirm_Publisher\\PublisherConfirm_Publisher.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\PublisherConfirm_Publisher\\PublisherConfirm_Publisher.csproj",
+        "projectName": "PublisherConfirm_Publisher",
+        "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\PublisherConfirm_Publisher\\PublisherConfirm_Publisher.csproj",
+        "packagesPath": "C:\\Users\\gforese\\.nuget\\packages\\",
+        "outputPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\PublisherConfirm_Publisher\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gforese\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\DitechNugetPackages_LOCAL": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Common\\Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\PublishSubscriber_Consumer\\PublishSubscriber_Consumer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\PublishSubscriber_Consumer\\PublishSubscriber_Consumer.csproj",
+        "projectName": "PublishSubscriber_Consumer",
+        "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\PublishSubscriber_Consumer\\PublishSubscriber_Consumer.csproj",
+        "packagesPath": "C:\\Users\\gforese\\.nuget\\packages\\",
+        "outputPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\PublishSubscriber_Consumer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gforese\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\DitechNugetPackages_LOCAL": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Common\\Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\PublishSubscriber_Publisher\\PublishSubscriber_Publisher.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\PublishSubscriber_Publisher\\PublishSubscriber_Publisher.csproj",
+        "projectName": "PublishSubscriber_Publisher",
+        "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\PublishSubscriber_Publisher\\PublishSubscriber_Publisher.csproj",
+        "packagesPath": "C:\\Users\\gforese\\.nuget\\packages\\",
+        "outputPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\PublishSubscriber_Publisher\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gforese\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\DitechNugetPackages_LOCAL": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Common\\Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\RabbitMQTutorials\\RabbitMQTutorials.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\RabbitMQTutorials\\RabbitMQTutorials.csproj",
+        "projectName": "RabbitMQTutorials",
+        "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\RabbitMQTutorials\\RabbitMQTutorials.csproj",
+        "packagesPath": "C:\\Users\\gforese\\.nuget\\packages\\",
+        "outputPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\RabbitMQTutorials\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gforese\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\DitechNugetPackages_LOCAL": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\PublisherConfirm_Publisher\\PublisherConfirm_Publisher.csproj": {
+                "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\PublisherConfirm_Publisher\\PublisherConfirm_Publisher.csproj"
+              },
+              "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\PublishSubscriber_Consumer\\PublishSubscriber_Consumer.csproj": {
+                "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\PublishSubscriber_Consumer\\PublishSubscriber_Consumer.csproj"
+              },
+              "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\PublishSubscriber_Publisher\\PublishSubscriber_Publisher.csproj": {
+                "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\PublishSubscriber_Publisher\\PublishSubscriber_Publisher.csproj"
+              },
+              "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Routing_Consumer\\Routing_Consumer.csproj": {
+                "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Routing_Consumer\\Routing_Consumer.csproj"
+              },
+              "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Routing_Publisher\\Routing_Publisher.csproj": {
+                "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Routing_Publisher\\Routing_Publisher.csproj"
+              },
+              "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\RPC_Consumer\\RPC_Consumer.csproj": {
+                "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\RPC_Consumer\\RPC_Consumer.csproj"
+              },
+              "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\RPC_Publisher\\RPC_Publisher.csproj": {
+                "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\RPC_Publisher\\RPC_Publisher.csproj"
+              },
+              "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Simple_HelloWorld_Consumer\\Simple_HelloWorld_Consumer.csproj": {
+                "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Simple_HelloWorld_Consumer\\Simple_HelloWorld_Consumer.csproj"
+              },
+              "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Simple_HelloWorld_Publisher\\Simple_HelloWorld_Publisher.csproj": {
+                "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Simple_HelloWorld_Publisher\\Simple_HelloWorld_Publisher.csproj"
+              },
+              "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Topics_Consumer\\Topics_Consumer.csproj": {
+                "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Topics_Consumer\\Topics_Consumer.csproj"
+              },
+              "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Topics_Publisher\\Topics_Publisher.csproj": {
+                "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Topics_Publisher\\Topics_Publisher.csproj"
+              },
+              "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\WorkQueues_Consumer\\WorkQueues_Consumer.csproj": {
+                "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\WorkQueues_Consumer\\WorkQueues_Consumer.csproj"
+              },
+              "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\WorkQueues_Publisher\\WorkQueues_Publisher.csproj": {
+                "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\WorkQueues_Publisher\\WorkQueues_Publisher.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Routing_Consumer\\Routing_Consumer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Routing_Consumer\\Routing_Consumer.csproj",
+        "projectName": "Routing_Consumer",
+        "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Routing_Consumer\\Routing_Consumer.csproj",
+        "packagesPath": "C:\\Users\\gforese\\.nuget\\packages\\",
+        "outputPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Routing_Consumer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gforese\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\DitechNugetPackages_LOCAL": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Common\\Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Routing_Publisher\\Routing_Publisher.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Routing_Publisher\\Routing_Publisher.csproj",
+        "projectName": "Routing_Publisher",
+        "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Routing_Publisher\\Routing_Publisher.csproj",
+        "packagesPath": "C:\\Users\\gforese\\.nuget\\packages\\",
+        "outputPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Routing_Publisher\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gforese\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\DitechNugetPackages_LOCAL": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Common\\Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\RPC_Consumer\\RPC_Consumer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\RPC_Consumer\\RPC_Consumer.csproj",
+        "projectName": "RPC_Consumer",
+        "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\RPC_Consumer\\RPC_Consumer.csproj",
+        "packagesPath": "C:\\Users\\gforese\\.nuget\\packages\\",
+        "outputPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\RPC_Consumer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gforese\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\DitechNugetPackages_LOCAL": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Common\\Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\RPC_Publisher\\RPC_Publisher.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\RPC_Publisher\\RPC_Publisher.csproj",
+        "projectName": "RPC_Publisher",
+        "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\RPC_Publisher\\RPC_Publisher.csproj",
+        "packagesPath": "C:\\Users\\gforese\\.nuget\\packages\\",
+        "outputPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\RPC_Publisher\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gforese\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\DitechNugetPackages_LOCAL": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Common\\Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Simple_HelloWorld_Consumer\\Simple_HelloWorld_Consumer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Simple_HelloWorld_Consumer\\Simple_HelloWorld_Consumer.csproj",
+        "projectName": "Simple_HelloWorld_Consumer",
+        "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Simple_HelloWorld_Consumer\\Simple_HelloWorld_Consumer.csproj",
+        "packagesPath": "C:\\Users\\gforese\\.nuget\\packages\\",
+        "outputPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Simple_HelloWorld_Consumer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gforese\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\DitechNugetPackages_LOCAL": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Common\\Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Simple_HelloWorld_Publisher\\Simple_HelloWorld_Publisher.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Simple_HelloWorld_Publisher\\Simple_HelloWorld_Publisher.csproj",
+        "projectName": "Simple_HelloWorld_Publisher",
+        "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Simple_HelloWorld_Publisher\\Simple_HelloWorld_Publisher.csproj",
+        "packagesPath": "C:\\Users\\gforese\\.nuget\\packages\\",
+        "outputPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Simple_HelloWorld_Publisher\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gforese\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\DitechNugetPackages_LOCAL": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Common\\Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Topics_Consumer\\Topics_Consumer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Topics_Consumer\\Topics_Consumer.csproj",
+        "projectName": "Topics_Consumer",
+        "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Topics_Consumer\\Topics_Consumer.csproj",
+        "packagesPath": "C:\\Users\\gforese\\.nuget\\packages\\",
+        "outputPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Topics_Consumer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gforese\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\DitechNugetPackages_LOCAL": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Common\\Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Topics_Publisher\\Topics_Publisher.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Topics_Publisher\\Topics_Publisher.csproj",
+        "projectName": "Topics_Publisher",
+        "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Topics_Publisher\\Topics_Publisher.csproj",
+        "packagesPath": "C:\\Users\\gforese\\.nuget\\packages\\",
+        "outputPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Topics_Publisher\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gforese\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\DitechNugetPackages_LOCAL": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Common\\Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\WorkQueues_Consumer\\WorkQueues_Consumer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\WorkQueues_Consumer\\WorkQueues_Consumer.csproj",
+        "projectName": "WorkQueues_Consumer",
+        "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\WorkQueues_Consumer\\WorkQueues_Consumer.csproj",
+        "packagesPath": "C:\\Users\\gforese\\.nuget\\packages\\",
+        "outputPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\WorkQueues_Consumer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gforese\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\DitechNugetPackages_LOCAL": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Common\\Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\WorkQueues_Publisher\\WorkQueues_Publisher.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\WorkQueues_Publisher\\WorkQueues_Publisher.csproj",
+        "projectName": "WorkQueues_Publisher",
+        "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\WorkQueues_Publisher\\WorkQueues_Publisher.csproj",
+        "packagesPath": "C:\\Users\\gforese\\.nuget\\packages\\",
+        "outputPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\WorkQueues_Publisher\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gforese\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\DitechNugetPackages_LOCAL": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Common\\Common.csproj": {
+                "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Common\\Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

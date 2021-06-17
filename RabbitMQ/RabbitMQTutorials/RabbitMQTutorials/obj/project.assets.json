@@ -1,0 +1,535 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows7.0": {
+      "RabbitMQ.Client/6.2.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4",
+          "System.Threading.Channels": "4.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {}
+        }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.Threading.Channels/4.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/System.Threading.Channels.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Threading.Channels.dll": {}
+        }
+      },
+      "Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "RabbitMQ.Client": "6.2.1"
+        },
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "PublisherConfirm_Publisher/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Common": "1.0.0",
+          "RabbitMQ.Client": "6.2.1"
+        },
+        "compile": {
+          "bin/placeholder/PublisherConfirm_Publisher.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PublisherConfirm_Publisher.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "PublishSubscriber_Consumer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Common": "1.0.0",
+          "RabbitMQ.Client": "6.2.1"
+        },
+        "compile": {
+          "bin/placeholder/PublishSubscriber_Consumer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PublishSubscriber_Consumer.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "PublishSubscriber_Publisher/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Common": "1.0.0",
+          "RabbitMQ.Client": "6.2.1"
+        },
+        "compile": {
+          "bin/placeholder/PublishSubscriber_Publisher.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PublishSubscriber_Publisher.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Routing_Consumer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Common": "1.0.0",
+          "RabbitMQ.Client": "6.2.1"
+        },
+        "compile": {
+          "bin/placeholder/Routing_Consumer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Routing_Consumer.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Routing_Publisher/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Common": "1.0.0",
+          "RabbitMQ.Client": "6.2.1"
+        },
+        "compile": {
+          "bin/placeholder/Routing_Publisher.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Routing_Publisher.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "RPC_Consumer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Common": "1.0.0",
+          "RabbitMQ.Client": "6.2.1"
+        },
+        "compile": {
+          "bin/placeholder/RPC_Consumer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RPC_Consumer.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "RPC_Publisher/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Common": "1.0.0",
+          "RabbitMQ.Client": "6.2.1"
+        },
+        "compile": {
+          "bin/placeholder/RPC_Publisher.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RPC_Publisher.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Simple_HelloWorld_Consumer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Common": "1.0.0",
+          "RabbitMQ.Client": "6.2.1"
+        },
+        "compile": {
+          "bin/placeholder/Simple_HelloWorld_Consumer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Simple_HelloWorld_Consumer.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Simple_HelloWorld_Publisher/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Common": "1.0.0",
+          "RabbitMQ.Client": "6.2.1"
+        },
+        "compile": {
+          "bin/placeholder/Simple_HelloWorld_Publisher.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Simple_HelloWorld_Publisher.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Topics_Consumer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Common": "1.0.0",
+          "RabbitMQ.Client": "6.2.1"
+        },
+        "compile": {
+          "bin/placeholder/Topics_Consumer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Topics_Consumer.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Topics_Publisher/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Common": "1.0.0",
+          "RabbitMQ.Client": "6.2.1"
+        },
+        "compile": {
+          "bin/placeholder/Topics_Publisher.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Topics_Publisher.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "WorkQueues_Consumer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Common": "1.0.0",
+          "RabbitMQ.Client": "6.2.1"
+        },
+        "compile": {
+          "bin/placeholder/WorkQueues_Consumer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WorkQueues_Consumer.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "WorkQueues_Publisher/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Common": "1.0.0",
+          "RabbitMQ.Client": "6.2.1"
+        },
+        "compile": {
+          "bin/placeholder/WorkQueues_Publisher.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WorkQueues_Publisher.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "RabbitMQ.Client/6.2.1": {
+      "sha512": "kdcin0uz1b9xQPvlLOoa8Y2zQsfu7nRuTrcX02dCLVzwGVlsPp9AFgu1L3kRh4wSFEOGE03OVqpWKxaDlhuowQ==",
+      "type": "package",
+      "path": "rabbitmq.client/6.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "icon.png",
+        "lib/net461/RabbitMQ.Client.dll",
+        "lib/net461/RabbitMQ.Client.pdb",
+        "lib/net461/RabbitMQ.Client.xml",
+        "lib/netstandard2.0/RabbitMQ.Client.dll",
+        "lib/netstandard2.0/RabbitMQ.Client.pdb",
+        "lib/netstandard2.0/RabbitMQ.Client.xml",
+        "rabbitmq.client.6.2.1.nupkg.sha512",
+        "rabbitmq.client.nuspec"
+      ]
+    },
+    "System.Memory/4.5.4": {
+      "sha512": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "type": "package",
+      "path": "system.memory/4.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.4.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Threading.Channels/4.7.1": {
+      "sha512": "6akRtHK/wab3246t4p5v3HQrtQk8LboOt5T4dtpNgsp3zvDeM4/Gx8V12t0h+c/W9/enUrilk8n6EQqdQorZAA==",
+      "type": "package",
+      "path": "system.threading.channels/4.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Threading.Channels.dll",
+        "lib/net461/System.Threading.Channels.xml",
+        "lib/netcoreapp3.0/System.Threading.Channels.dll",
+        "lib/netcoreapp3.0/System.Threading.Channels.xml",
+        "lib/netstandard1.3/System.Threading.Channels.dll",
+        "lib/netstandard1.3/System.Threading.Channels.xml",
+        "lib/netstandard2.0/System.Threading.Channels.dll",
+        "lib/netstandard2.0/System.Threading.Channels.xml",
+        "system.threading.channels.4.7.1.nupkg.sha512",
+        "system.threading.channels.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Common/1.0.0": {
+      "type": "project",
+      "path": "../Common/Common.csproj",
+      "msbuildProject": "../Common/Common.csproj"
+    },
+    "PublisherConfirm_Publisher/1.0.0": {
+      "type": "project",
+      "path": "../PublisherConfirm_Publisher/PublisherConfirm_Publisher.csproj",
+      "msbuildProject": "../PublisherConfirm_Publisher/PublisherConfirm_Publisher.csproj"
+    },
+    "PublishSubscriber_Consumer/1.0.0": {
+      "type": "project",
+      "path": "../PublishSubscriber_Consumer/PublishSubscriber_Consumer.csproj",
+      "msbuildProject": "../PublishSubscriber_Consumer/PublishSubscriber_Consumer.csproj"
+    },
+    "PublishSubscriber_Publisher/1.0.0": {
+      "type": "project",
+      "path": "../PublishSubscriber_Publisher/PublishSubscriber_Publisher.csproj",
+      "msbuildProject": "../PublishSubscriber_Publisher/PublishSubscriber_Publisher.csproj"
+    },
+    "Routing_Consumer/1.0.0": {
+      "type": "project",
+      "path": "../Routing_Consumer/Routing_Consumer.csproj",
+      "msbuildProject": "../Routing_Consumer/Routing_Consumer.csproj"
+    },
+    "Routing_Publisher/1.0.0": {
+      "type": "project",
+      "path": "../Routing_Publisher/Routing_Publisher.csproj",
+      "msbuildProject": "../Routing_Publisher/Routing_Publisher.csproj"
+    },
+    "RPC_Consumer/1.0.0": {
+      "type": "project",
+      "path": "../RPC_Consumer/RPC_Consumer.csproj",
+      "msbuildProject": "../RPC_Consumer/RPC_Consumer.csproj"
+    },
+    "RPC_Publisher/1.0.0": {
+      "type": "project",
+      "path": "../RPC_Publisher/RPC_Publisher.csproj",
+      "msbuildProject": "../RPC_Publisher/RPC_Publisher.csproj"
+    },
+    "Simple_HelloWorld_Consumer/1.0.0": {
+      "type": "project",
+      "path": "../Simple_HelloWorld_Consumer/Simple_HelloWorld_Consumer.csproj",
+      "msbuildProject": "../Simple_HelloWorld_Consumer/Simple_HelloWorld_Consumer.csproj"
+    },
+    "Simple_HelloWorld_Publisher/1.0.0": {
+      "type": "project",
+      "path": "../Simple_HelloWorld_Publisher/Simple_HelloWorld_Publisher.csproj",
+      "msbuildProject": "../Simple_HelloWorld_Publisher/Simple_HelloWorld_Publisher.csproj"
+    },
+    "Topics_Consumer/1.0.0": {
+      "type": "project",
+      "path": "../Topics_Consumer/Topics_Consumer.csproj",
+      "msbuildProject": "../Topics_Consumer/Topics_Consumer.csproj"
+    },
+    "Topics_Publisher/1.0.0": {
+      "type": "project",
+      "path": "../Topics_Publisher/Topics_Publisher.csproj",
+      "msbuildProject": "../Topics_Publisher/Topics_Publisher.csproj"
+    },
+    "WorkQueues_Consumer/1.0.0": {
+      "type": "project",
+      "path": "../WorkQueues_Consumer/WorkQueues_Consumer.csproj",
+      "msbuildProject": "../WorkQueues_Consumer/WorkQueues_Consumer.csproj"
+    },
+    "WorkQueues_Publisher/1.0.0": {
+      "type": "project",
+      "path": "../WorkQueues_Publisher/WorkQueues_Publisher.csproj",
+      "msbuildProject": "../WorkQueues_Publisher/WorkQueues_Publisher.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows7.0": [
+      "PublishSubscriber_Consumer >= 1.0.0",
+      "PublishSubscriber_Publisher >= 1.0.0",
+      "PublisherConfirm_Publisher >= 1.0.0",
+      "RPC_Consumer >= 1.0.0",
+      "RPC_Publisher >= 1.0.0",
+      "Routing_Consumer >= 1.0.0",
+      "Routing_Publisher >= 1.0.0",
+      "Simple_HelloWorld_Consumer >= 1.0.0",
+      "Simple_HelloWorld_Publisher >= 1.0.0",
+      "Topics_Consumer >= 1.0.0",
+      "Topics_Publisher >= 1.0.0",
+      "WorkQueues_Consumer >= 1.0.0",
+      "WorkQueues_Publisher >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\gforese\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\RabbitMQTutorials\\RabbitMQTutorials.csproj",
+      "projectName": "RabbitMQTutorials",
+      "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\RabbitMQTutorials\\RabbitMQTutorials.csproj",
+      "packagesPath": "C:\\Users\\gforese\\.nuget\\packages\\",
+      "outputPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\RabbitMQTutorials\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\gforese\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\DitechNugetPackages_LOCAL": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {
+            "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\PublisherConfirm_Publisher\\PublisherConfirm_Publisher.csproj": {
+              "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\PublisherConfirm_Publisher\\PublisherConfirm_Publisher.csproj"
+            },
+            "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\PublishSubscriber_Consumer\\PublishSubscriber_Consumer.csproj": {
+              "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\PublishSubscriber_Consumer\\PublishSubscriber_Consumer.csproj"
+            },
+            "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\PublishSubscriber_Publisher\\PublishSubscriber_Publisher.csproj": {
+              "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\PublishSubscriber_Publisher\\PublishSubscriber_Publisher.csproj"
+            },
+            "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Routing_Consumer\\Routing_Consumer.csproj": {
+              "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Routing_Consumer\\Routing_Consumer.csproj"
+            },
+            "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Routing_Publisher\\Routing_Publisher.csproj": {
+              "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Routing_Publisher\\Routing_Publisher.csproj"
+            },
+            "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\RPC_Consumer\\RPC_Consumer.csproj": {
+              "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\RPC_Consumer\\RPC_Consumer.csproj"
+            },
+            "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\RPC_Publisher\\RPC_Publisher.csproj": {
+              "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\RPC_Publisher\\RPC_Publisher.csproj"
+            },
+            "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Simple_HelloWorld_Consumer\\Simple_HelloWorld_Consumer.csproj": {
+              "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Simple_HelloWorld_Consumer\\Simple_HelloWorld_Consumer.csproj"
+            },
+            "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Simple_HelloWorld_Publisher\\Simple_HelloWorld_Publisher.csproj": {
+              "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Simple_HelloWorld_Publisher\\Simple_HelloWorld_Publisher.csproj"
+            },
+            "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Topics_Consumer\\Topics_Consumer.csproj": {
+              "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Topics_Consumer\\Topics_Consumer.csproj"
+            },
+            "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Topics_Publisher\\Topics_Publisher.csproj": {
+              "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Topics_Publisher\\Topics_Publisher.csproj"
+            },
+            "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\WorkQueues_Consumer\\WorkQueues_Consumer.csproj": {
+              "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\WorkQueues_Consumer\\WorkQueues_Consumer.csproj"
+            },
+            "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\WorkQueues_Publisher\\WorkQueues_Publisher.csproj": {
+              "projectPath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\WorkQueues_Publisher\\WorkQueues_Publisher.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

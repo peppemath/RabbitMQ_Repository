@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "4qGx3DaCGREy48KYDJffnE3tEhXGoB9tvSkrTh6O7Z36Q+cmsN8GW3gBUWDOKJgoF45y8ko/QW4TdTIi5GVDTw==",
+  "success": true,
+  "projectFilePath": "C:\\Git_PersonalGitHub\\peppemath\\Prove_Repository\\RabbitMQ\\RabbitMQTutorials\\Topics_Consumer\\Topics_Consumer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gforese\\.nuget\\packages\\rabbitmq.client\\6.2.1\\rabbitmq.client.6.2.1.nupkg.sha512",
+    "C:\\Users\\gforese\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\gforese\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
