@@ -1,2 +1,2 @@
 # RabbitMQ_Repository
-This is a simple project/tutorial of implementation of RabbitMQ
+This is a simple project/tutorial of RabbitMQ implementation 
